@@ -79,7 +79,17 @@ header .bottom ul li:nth-child(1) {
 header .bottom ul li:last-child {
     padding-left: 15px;
 }
+/* main */
+main{
+    padding: 10px 0px;
+}
+main h2{
+    margin: 10px 0;
+}
 
+main .answer{
+    line-height: 2;
+}
 /* footer */
 
 footer{
