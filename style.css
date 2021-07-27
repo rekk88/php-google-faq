@@ -83,12 +83,16 @@ header .bottom ul li:last-child {
 main{
     padding: 10px 0px;
 }
-main h2{
+main{
     margin: 10px 0;
 }
-
+main .title{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 main .answer{
     line-height: 2;
+    font-size: 0.9rem;
 }
 /* footer */
 
