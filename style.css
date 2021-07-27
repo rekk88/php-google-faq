@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header{
+    
+    height: 100px;
+    padding: 10px;
+    border-bottom: 1px solid #b0b1b3;
+}
+
+header .top{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .bottom{
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+/* logo */
+.logo_wrap img{
+    vertical-align: bottom;
+}
+.logo_wrap span{
+    font-size: 1.4rem;
+    color: #5f6368;
+}
+/* account */
+.account_wrap svg{
+    height: 25px;
+}
+
+.account_wrap img{
+    height: 30px;
+}
