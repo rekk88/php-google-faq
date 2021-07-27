@@ -1,3 +1,5 @@
+/* commons */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,25 +9,27 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.px_15{
+    padding: 0px 15px;
+}
+.pr_15{
+    padding-right: 15px;
+}
 /* header */
+
 header{
     
     height: 100px;
     padding: 10px;
     border-bottom: 1px solid #b0b1b3;
 }
-
+/* header top */
 header .top{
     height: 50%;
     display: flex;
     justify-content: space-between;
 }
 
-header .bottom{
-    height: 50%;
-    display: flex;
-    align-items: flex-end;
-}
 /* logo */
 .logo_wrap img{
     vertical-align: bottom;
@@ -42,3 +46,24 @@ header .bottom{
 .account_wrap img{
     height: 30px;
 }
+
+/* header bottom */
+header .bottom{
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+header .bottom ul li {
+    list-style: none;
+    display: inline-block;
+    color: #5f6368;
+    font-weight: 500;
+}
+
+header .bottom ul li:nth-child(1) {
+   padding-right: 15px;
+}
+header .bottom ul li:last-child {
+    padding-left: 15px;
+ }

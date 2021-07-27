@@ -25,7 +25,13 @@
        <!-- fine header top -->
        <!-- header bottom -->
        <div class="bottom">
-           header bottom
+            <ul>
+                <li>Introduzione</li>
+                <li class="px_15">Norme sulla privacy</li>
+                <li class="px_15">Termini di servizio</li>
+                <li class="px_15">Tecnologie</li>
+                <li>Domande frequenti</li>
+            </ul>
        </div>
        <!--fine header bottom -->
 
